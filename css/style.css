@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  font-family: fontfamily;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ*/
+.block {
+  width: 800px;
+  padding: 5px;
+  border: 2px solid #000;
+  margin: 20px;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.top__input {
+  flex: 1 1 70%;
+  margin-right: 8px;
+  border: 2px solid #C0C0C0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.top__button {
+  flex: 1 1 20%;
+  border: 2px solid #00FF00;
+  color: #00FF00;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.block-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  flex: 0 0 17px;
+  margin: 0 15px;
+}
+
+.block-item__input {
+  flex: 1 1 0;
+  padding: 10px 10px 3px 10px;
+  border-bottom: 2px solid red;
+  font-size: 25px;
+}
+
+.delete {
+  flex: 0 0 10px;
+}
